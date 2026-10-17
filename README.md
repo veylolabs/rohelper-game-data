@@ -35,3 +35,11 @@ invented. A sourced catalog can be published independently later.
 
 The manifest is at
 `https://raw.githubusercontent.com/veylolabs/rohelper-game-data/main/manifest.json`.
+
+## Game layouts and shared events
+
+`navigation` is an ordered tree of `{id, name, icon, view}` tabs or `{id, name, children}` groups. IDs stay stable; labels and order may change. Built-in views: `overview`, `servers`, `notebook`, `reference`, `events`, `event-helpers`, `sab-overview`, `sab-inventory`, `sab-compare`, `sab-checklist`, `sab-backups`. `accountTabs` configures SAB's `sab-rebirth`, `sab-inventory`, `sab-index` views. Reference catalogs contain `sections` and human-readable `entries`. Unknown view types need a newer app; packs never contain executable code.
+
+`helpers` configures names/types/catalog keys for rewards, fuses, crafting, collection and islands. `inventoryEngine: "sab"` enables SAB ownership and reward-to-base actions. Other games remain reference-only until they have an inventory engine. Never display egg tiers or treat conditional reported fuse maxima as personalized probabilities.
+
+`events` contains stable IDs, titles, start wall times, IANA zones, duration minutes, recurrence, provenance and confirmation state. Use null times/durations and `scheduleConfirmed: false` where unknown; optional `dateStart`/`dateEnd` represent date-only references. Never invent midnight start times or one-hour end times. Label community schedules and estimated ends. Per-device personal timers and per-field overrides are never published. Updates must not initialize or change account progress.
