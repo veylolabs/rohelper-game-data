@@ -57,3 +57,13 @@ The manifest is at
 `events` contains stable IDs, titles, start wall times, IANA zones, duration minutes, recurrence, provenance and confirmation state. Use null times/durations and `scheduleConfirmed: false` where unknown; optional `dateStart`/`dateEnd` represent date-only references. Never invent midnight start times or one-hour end times. Label community schedules and estimated ends. Per-device personal timers and per-field overrides are never published. Updates must not initialize or change account progress.
 
 SAB gear reference names are included separately from brainrot base slots. Source metadata and CC BY-SA 4.0 attribution are in `catalogs.gear`; unknown artwork, values and availability remain unasserted. User quantities and notes never enter this repository.
+
+## Inventory helpers and mutation previews
+
+SAB `catalogs.mutationEffects` contains declarative filter palettes, textures, glow, tone tables and color cycles. The app supplies a bounded renderer; no remote executable scripts are loaded. Mutation colors and menu/index order are in the mutation records; traits carry their own menu order. Gold, Diamond and Rainbow remain last in mutation menus, while index tabs start Normal, Gold, Diamond, Rainbow.
+
+`catalogs.gear` retains stable gear IDs, exact artwork references and per-entry acquisition evidence. Cash gear shop, Robux offers, event wheels, fishing, codes and other event sources are distinct. Speculative or unfinished gear is marked unconfirmed. CDN rejection is recorded without substituting unrelated artwork.
+
+Adopt Me `catalogs.items.hatchPools.pools` maps egg IDs to verified current pet IDs and source evidence. Previously obtainable pools are excluded; conditional pets retain their rotation conditions. A hatch is a local account inventory action, consuming one egg and adding one normal newborn pet. Non-pet stacks retain distinct saved metadata.
+
+Currency definitions are public defaults only. All account balances, inventories, ownership and progress stay local. Account and item notes are never published.

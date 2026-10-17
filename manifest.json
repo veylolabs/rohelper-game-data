@@ -1,18 +1,18 @@
 {
   "schema": 1,
   "engineVersion": 1,
-  "layoutVersion": 3,
-  "revision": "content-1191fee2b429",
+  "layoutVersion": 4,
+  "revision": "content-c22b5b978c40",
   "games": [
     {
       "id": "sab",
-      "file": "game-sab-f640c61f8aa42e7f.json",
-      "sha256": "f640c61f8aa42e7fb2677c8f3a45cef0743592cc015a226135aa1a1493346dc2"
+      "file": "game-sab-ce7287cd94fff985.json",
+      "sha256": "ce7287cd94fff9857e05d214f73fff543ac26b52756a02b246c117793e86beae"
     },
     {
       "id": "adopt-me",
-      "file": "game-adopt-me-e76f9715da3eda89.json",
-      "sha256": "e76f9715da3eda8937bf28933b1b31f45c26e6ece0f5c45e8f87de6d4108611a"
+      "file": "game-adopt-me-53ee5c9bfab355ca.json",
+      "sha256": "53ee5c9bfab355ca842042d82b0fa9dbf5d1b8ff6dc283e85f4020e4be1b8c6a"
     }
   ]
 }
