@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "engineVersion": 1,
+  "revision": "2026-10-17.1",
+  "games": [
+    {
+      "id": "sab",
+      "file": "game-sab-90dae1919aea2334.json",
+      "sha256": "90dae1919aea2334c5a7520e3edbb6d2327844bc355e25cf0ca73f103b48e82b"
+    },
+    {
+      "id": "adopt-me",
+      "file": "game-adopt-me-31994618ae8d829a.json",
+      "sha256": "31994618ae8d829a0858da07b59aa009a0ed05af6660e4c87296dd27748e0038"
+    }
+  ]
+}
