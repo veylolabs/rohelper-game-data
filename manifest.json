@@ -1,13 +1,13 @@
 {
   "schema": 1,
   "engineVersion": 1,
-  "layoutVersion": 2,
-  "revision": "content-4f09efbfa2e9",
+  "layoutVersion": 3,
+  "revision": "content-1191fee2b429",
   "games": [
     {
       "id": "sab",
-      "file": "game-sab-7eff79a93319ac10.json",
-      "sha256": "7eff79a93319ac1006a4eab71789545939227016d878471911fc821dbcde3f53"
+      "file": "game-sab-f640c61f8aa42e7f.json",
+      "sha256": "f640c61f8aa42e7fb2677c8f3a45cef0743592cc015a226135aa1a1493346dc2"
     },
     {
       "id": "adopt-me",
