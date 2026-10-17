@@ -30,16 +30,28 @@ SABRValues is the primary artwork source, SABExistCount is second, and the SAB
 Fandom wiki is the final fallback. Exact source artwork URLs and evidence links
 are retained. Artwork belongs to its respective creators and is not relicensed.
 
-Adopt Me currently includes notebook support only. No pet or trading values are
-invented. A sourced catalog can be published independently later.
+Adopt Me includes a public pet, egg and item catalog, separate categories, current
+growth task tables, currencies and official event helpers. AMTV item IDs remain
+stable (`amtv-<source ID>`); wiki-only entries retain `wiki-<article slug>` IDs.
+Artwork uses the exact published AMTV item URL, an exact wiki table/infobox image,
+or an exact official update image. Missing artwork stays unknown. Wiki-derived
+facts are attributed to Adopt Me Wiki and its original Fandom authors under
+CC BY-SA 4.0; artwork rights remain with the respective owners.
+
+`tradeValues` is an AMTV community snapshot in Ride Potions (RP), checked on the
+record's `valueCheckedOn` date, not euros or real sale prices. The twelve pet
+variants are Normal, R, F, FR, N, NR, NF, NFR, M, MR, MF, MFR; non-pets have only
+one value. The source's numerical units are divided by 250 (one Ride Potion).
+Growth and friendship adjustments remain unknown. Never infer prices from rarity.
+Source evidence and coverage limitations are retained in the Adopt Me pack.
 
 The manifest is at
 `https://raw.githubusercontent.com/veylolabs/rohelper-game-data/main/manifest.json`.
 
 ## Game layouts and shared events
 
-`navigation` is an ordered tree of `{id, name, icon, view}` tabs or `{id, name, children}` groups. IDs stay stable; labels and order may change. Built-in views: `overview`, `servers`, `notebook`, `reference`, `events`, `event-helpers`, `sab-overview`, `sab-inventory`, `sab-compare`, `sab-checklist`, `sab-backups`. `accountTabs` configures SAB's `sab-rebirth`, `sab-inventory`, `sab-index` views. Reference catalogs contain `sections` and human-readable `entries`. Unknown view types need a newer app; packs never contain executable code.
+`navigation` is an ordered tree of `{id, name, icon, view}` tabs or `{id, name, children}` groups. IDs stay stable; labels and order may change. Built-in views: `overview`, `servers`, `notebook`, `reference`, `events`, `event-helpers`, `sab-overview`, `sab-inventory`, `sab-catalog`, `sab-compare`, `sab-checklist`, `adopt-overview`, `adopt-inventory`, `adopt-catalog`. Adopt Me inventory tabs declare a `category` ID. `accountTabs` configures SAB's `sab-rebirth`, `sab-inventory`, `sab-index` views. Reference catalogs contain `sections` and human-readable `entries`. Unknown view types need a newer app; packs never contain executable code.
 
-`helpers` configures names/types/catalog keys for rewards, fuses, crafting, collection and islands. `inventoryEngine: "sab"` enables SAB ownership and reward-to-base actions. Other games remain reference-only until they have an inventory engine. Never display egg tiers or treat conditional reported fuse maxima as personalized probabilities.
+`helpers` configures names/types/catalog keys for rewards, fuses, crafting, collection and islands. `inventoryEngine: "sab"` enables SAB ownership and reward-to-base actions; `inventoryEngine: "adopt-me"` enables Adopt Me reward ownership, account checklists and add-to-inventory actions. Other games remain reference-only until they have an inventory engine. Never display egg tiers or treat conditional reported fuse maxima as personalized probabilities.
 
 `events` contains stable IDs, titles, start wall times, IANA zones, duration minutes, recurrence, provenance and confirmation state. Use null times/durations and `scheduleConfirmed: false` where unknown; optional `dateStart`/`dateEnd` represent date-only references. Never invent midnight start times or one-hour end times. Label community schedules and estimated ends. Per-device personal timers and per-field overrides are never published. Updates must not initialize or change account progress.
