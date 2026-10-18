@@ -52,7 +52,7 @@ The manifest is at
 
 `navigation` is an ordered tree of `{id, name, icon, view}` tabs or `{id, name, children}` groups. IDs stay stable; labels and order may change. Built-in views: `overview`, `servers`, `notebook`, `reference`, `events`, `event-helpers`, `sab-overview`, `sab-inventory`, `sab-catalog`, `sab-compare`, `sab-checklist`, `adopt-overview`, `adopt-inventory`, `adopt-catalog`. Adopt Me inventory tabs declare a `category` ID. `accountTabs` configures SAB's `sab-rebirth`, `sab-inventory`, `sab-index` views. Reference catalogs contain `sections` and human-readable `entries`. Unknown view types need a newer app; packs never contain executable code.
 
-`helpers` configures names/types/catalog keys for rewards, fuses, crafting, collection and islands. `inventoryEngine: "sab"` enables SAB ownership and reward-to-base actions; `inventoryEngine: "adopt-me"` enables Adopt Me reward ownership, account checklists and add-to-inventory actions. Other games remain reference-only until they have an inventory engine. Never display egg tiers or treat conditional reported fuse maxima as personalized probabilities.
+`helpers` configures names/types/catalog keys for rewards, fuses, crafting, collection and islands. `inventoryEngine: "sab"` enables SAB ownership and reward-to-base actions; `inventoryEngine: "adopt-me"` enables Adopt Me reward ownership, account checklists and add-to-inventory actions. The collection engine supports the additional games described below. Never display egg tiers or treat conditional reported fuse maxima as personalized probabilities.
 
 `events` contains stable IDs, titles, start wall times, IANA zones, duration minutes, recurrence, provenance and confirmation state. Use null times/durations and `scheduleConfirmed: false` where unknown; optional `dateStart`/`dateEnd` represent date-only references. Never invent midnight start times or one-hour end times. Label community schedules and estimated ends. Per-device personal timers and per-field overrides are never published. Updates must not initialize or change account progress.
 
@@ -67,3 +67,16 @@ SAB `catalogs.mutationEffects` contains declarative filter palettes, textures, g
 Adopt Me `catalogs.items.hatchPools.pools` maps egg IDs to verified current pet IDs and source evidence. Previously obtainable pools are excluded; conditional pets retain their rotation conditions. A hatch is a local account inventory action, consuming one egg and adding one normal newborn pet. Non-pet stacks retain distinct saved metadata.
 
 Currency definitions are public defaults only. All account balances, inventories, ownership and progress stay local. Account and item notes are never published.
+
+
+## Shared collection engine (RoHelper 0.6.0)
+
+Grow a Garden, Grow a Garden 2, Fisch, Pet Simulator 99, Blox Fruits, Bee Swarm Simulator and Murder Mystery 2 declare `inventoryEngine: "collection"`. Their `catalogs.collection` holds stable entries/categories, item field definitions (number, text, checkbox, select and multiple choice), optional variants, source facts, currencies and verified recipes. The built-in `collection-overview`, `collection-inventory`, `collection-search`, `collection-catalog`, `collection-index`, `collection-planner` and `collection-helpers` views render these data. Existing SAB and Adopt Me packs retain their original inventory engines.
+
+All balances, saved item copies, indexes, goals, hive positions and timers are account-local. A catalog refresh never fills ownership or resets a balance. Indexes are catalog acquisition checklists, not promises of exact in-game reward eligibility or totals. Unsupported views require a newer app; catalogs contain no remote executable scripts.
+
+Pet Simulator 99 uses official BIG Games public collection/RAP endpoints and Roblox asset thumbnails. Variant/shiny/tier matching is exact; unrecognized RAP configuration flags are excluded instead of guessed. RAP snapshots are diamonds, never euro prices. Murder Mystery 2 uses exact wiki article IDs/artwork and direct Supreme Values snapshots in SV units, never inferred from rarity. All values retain source and check dates and are not guaranteed trades.
+
+Other new game facts/artwork are attributed to Grow a Garden Wiki, Grow a Garden 2 Wiki, Fisch Wiki, Blox Fruits Wiki, Bee Swarm Simulator Wiki, Murder Mystery 2 Wiki and their original Fandom authors under CC BY-SA 4.0 where applicable. Artwork rights stay with the respective creators. Images are exact published source URLs; missing artwork stays unknown. Grow a Garden 2 refers to Strawberreh Squad’s verified current Roblox place, not an old unavailable listing.
+
+Verified Bee Swarm Blender/equipment recipes and Blox Fruits weapon upgrades are reference plans. They compare only manually recorded inventory/currency and never simulate crafting or consume items. Event dates, probabilities, cooldowns and other missing facts remain unknown unless verified.
