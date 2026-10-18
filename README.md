@@ -80,3 +80,8 @@ Pet Simulator 99 uses official BIG Games public collection/RAP endpoints and Rob
 Other new game facts/artwork are attributed to Grow a Garden Wiki, Grow a Garden 2 Wiki, Fisch Wiki, Blox Fruits Wiki, Bee Swarm Simulator Wiki, Murder Mystery 2 Wiki and their original Fandom authors under CC BY-SA 4.0 where applicable. Artwork rights stay with the respective creators. Images are exact published source URLs; missing artwork stays unknown. Grow a Garden 2 refers to Strawberreh Squad’s verified current Roblox place, not an old unavailable listing.
 
 Verified Bee Swarm Blender/equipment recipes and Blox Fruits weapon upgrades are reference plans. They compare only manually recorded inventory/currency and never simulate crafting or consume items. Event dates, probabilities, cooldowns and other missing facts remain unknown unless verified.
+
+
+## Unified catalogs and gear artwork (0.6.3)
+
+SAB and Adopt Me browsing tabs are named Catalog. All supported catalogs present All items before their item types; SAB combines Brainrots and Gear. The acquisition index remains separate. Six missing gear images are verified and embedded for reliable loading: Roblox developer-product icons for Flying Bee/Waverider, and exact Skibidi Games gear images for Bat/Rainbow Hammer/Christmas Coils/Demon’s Head. Gear artwork may use any clear, exact verified source, with per-entry URL/provider/hash provenance. The separate brainrot artwork source order is unchanged. Unverified, generated illustrations and tiny promotional cover crops are not used. Four remaining gear images stay unknown. No account ownership or personal data is included.
