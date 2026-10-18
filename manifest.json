@@ -2,17 +2,17 @@
   "schema": 1,
   "engineVersion": 1,
   "layoutVersion": 5,
-  "revision": "content-7049e9e86363",
+  "revision": "content-5de20f36b77f",
   "games": [
     {
       "id": "sab",
-      "file": "game-sab-faf46d54c9d12f3f.json",
-      "sha256": "faf46d54c9d12f3f54bd4d296a0d9cef0bc3912c8b1e3c09286913cdf14134d0"
+      "file": "game-sab-6d001cdafdd6e9de.json",
+      "sha256": "6d001cdafdd6e9deb54a8f6cdad137396c02e807fbc5c44cfe8c15921d8b6a91"
     },
     {
       "id": "adopt-me",
-      "file": "game-adopt-me-53ee5c9bfab355ca.json",
-      "sha256": "53ee5c9bfab355ca842042d82b0fa9dbf5d1b8ff6dc283e85f4020e4be1b8c6a"
+      "file": "game-adopt-me-3e9712b109d80245.json",
+      "sha256": "3e9712b109d802453cea61f045095390fe3473a9f12f126ae68fc5929f7f84b2"
     },
     {
       "id": "bee-swarm",
