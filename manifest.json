@@ -2,7 +2,7 @@
   "schema": 1,
   "engineVersion": 1,
   "layoutVersion": 5,
-  "revision": "content-b0780e6fdb40",
+  "revision": "content-c1626de5b05a",
   "games": [
     {
       "id": "sab",
@@ -49,5 +49,9 @@
       "file": "game-pet-simulator-99-fd101d3180da1c49.json",
       "sha256": "fd101d3180da1c499f975ef6c99c17351de734c9ce79ac9eed89388f3cb8ab52"
     }
-  ]
+  ],
+  "achievements": {
+    "file": "achievements-cc3267579c8be040.json",
+    "sha256": "cc3267579c8be0405e477852315e2a743845470008406c51d010581407b6ba02"
+  }
 }

@@ -85,3 +85,12 @@ Verified Bee Swarm Blender/equipment recipes and Blox Fruits weapon upgrades are
 ## Unified catalogs and gear artwork (0.6.3)
 
 SAB and Adopt Me browsing tabs are named Catalog. All supported catalogs present All items before their item types; SAB combines Brainrots and Gear. The acquisition index remains separate. Six missing gear images are verified and embedded for reliable loading: Roblox developer-product icons for Flying Bee/Waverider, and exact Skibidi Games gear images for Bat/Rainbow Hammer/Christmas Coils/Demon’s Head. Gear artwork may use any clear, exact verified source, with per-entry URL/provider/hash provenance. The separate brainrot artwork source order is unchanged. Unverified, generated illustrations and tiny promotional cover crops are not used. Four remaining gear images stay unknown. No account ownership or personal data is included.
+
+
+## Activity achievements (RoHelper 1.0)
+
+The optional top-level `manifest.achievements` descriptor points to an immutable JSON file and its full SHA-256 digest. RoHelper 1.0 downloads and validates this data with the game catalogs, caches it in local AppData, and uses the bundled definitions when offline. Older clients ignore this optional field.
+
+Each definition has a stable `id`, `name`, `description`, `group`, numeric `target`, supported `metric`, XP `points`, and an `icon` containing a hex color and SVG path data. Supported metrics: `combinedMs`, `wallActiveMs`, `sessions`, `peakAccounts`, `longestSessionMs`, `activeDays`, `bestStreak`, `antiAfkInputs`, `macroCycles`, `uniqueAccounts`, `savedMacros`, `trackedGames`, and `catalogedItems`. The catalog contains declarative data only, never scripts. New conditions using existing metrics need only a catalog update; adding a new measured metric requires app support.
+
+The initial set contains 53 achievements. Runtime months mean 30 days and years mean 365 days. Calendar-day goals and streaks use UTC. Completed macro cycles count when a script reaches its end. Statistics, account identities, pinned trophies and unlock states stay local and are never uploaded. Unlocks retain a local definition snapshot, so changing or retiring a definition does not remove an earned achievement.
