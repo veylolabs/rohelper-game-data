@@ -94,3 +94,10 @@ The optional top-level `manifest.achievements` descriptor points to an immutable
 Each definition has a stable `id`, `name`, `description`, `group`, numeric `target`, supported `metric`, XP `points`, and an `icon` containing a hex color and SVG path data. Supported metrics: `combinedMs`, `wallActiveMs`, `sessions`, `peakAccounts`, `longestSessionMs`, `activeDays`, `bestStreak`, `antiAfkInputs`, `macroCycles`, `uniqueAccounts`, `savedMacros`, `trackedGames`, and `catalogedItems`. The catalog contains declarative data only, never scripts. New conditions using existing metrics need only a catalog update; adding a new measured metric requires app support.
 
 The initial set contains 53 achievements. Runtime months mean 30 days and years mean 365 days. Calendar-day goals and streaks use UTC. Completed macro cycles count when a script reaches its end. Statistics, account identities, pinned trophies and unlock states stay local and are never uploaded. Unlocks retain a local definition snapshot, so changing or retiring a definition does not remove an earned achievement.
+
+
+### Achievement expansion — October 29, 2026
+
+100 new definitions bring the catalog to 153 achievements. All original 53 IDs, conditions, names, XP and icons are unchanged. The expansion works with RoHelper 1.0.0 through its normal game-content refresh; no app installation is required.
+
+New Presence achievements measure observed real-world active time, with parallel accounts counting once. New Roster achievements count distinct saved accounts observed over time, without requiring simultaneous clients. More milestones cover combined runtime, concurrent accounts, session counts and lengths, active days, streaks, anti-AFK inputs, macro cycles, saved macros, games and inventories. Each chain is ordered by its target. Existing recorded progress can qualify for the new milestones, while earned unlocks remain local and permanent.

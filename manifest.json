@@ -2,7 +2,7 @@
   "schema": 1,
   "engineVersion": 1,
   "layoutVersion": 5,
-  "revision": "content-c1626de5b05a",
+  "revision": "content-041d4817a7c8",
   "games": [
     {
       "id": "sab",
@@ -51,7 +51,7 @@
     }
   ],
   "achievements": {
-    "file": "achievements-cc3267579c8be040.json",
-    "sha256": "cc3267579c8be0405e477852315e2a743845470008406c51d010581407b6ba02"
+    "file": "achievements-5fa212a9bb09d1ba.json",
+    "sha256": "5fa212a9bb09d1bada363e01622d1434d011ae58bcb68af9f3c3bd15bc3fdd67"
   }
 }
