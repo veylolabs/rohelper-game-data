@@ -101,3 +101,9 @@ The initial set contains 53 achievements. Runtime months mean 30 days and years 
 100 new definitions bring the catalog to 153 achievements. All original 53 IDs, conditions, names, XP and icons are unchanged. The expansion works with RoHelper 1.0.0 through its normal game-content refresh; no app installation is required.
 
 New Presence achievements measure observed real-world active time, with parallel accounts counting once. New Roster achievements count distinct saved accounts observed over time, without requiring simultaneous clients. More milestones cover combined runtime, concurrent accounts, session counts and lengths, active days, streaks, anti-AFK inputs, macro cycles, saved macros, games and inventories. Each chain is ordered by its target. Existing recorded progress can qualify for the new milestones, while earned unlocks remain local and permanent.
+
+## Events and cooldown timers (RoHelper 1.0.1)
+
+All nine supported games have sourced event references and timer presets: 26 event records and 38 timers reviewed October 29, 2026. Exact schedules are enabled only where supported; date-only, random and disputed schedules remain unconfirmed. This is verified coverage, not a claim that every possible server event is predictable.
+
+Optional `timerPresets` records contain stable IDs, titles, duration seconds, account/server/global scope, clock type, source links, check dates, notes and optional duration variants or UTC phase offsets. Shared clocks predict timing, never live stock or guaranteed rewards. Community references are labeled. Online timers measure only a detected account while RoHelper is open; players must pause them outside the relevant game. Started timers, pauses, notifications and account/server bindings remain local in AppData and retain their duration across catalog updates. Older app versions ignore timer presets. Existing event IDs, local overrides, inventory records and achievement definitions are preserved.

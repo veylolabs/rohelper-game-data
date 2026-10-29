@@ -2,52 +2,52 @@
   "schema": 1,
   "engineVersion": 1,
   "layoutVersion": 5,
-  "revision": "content-041d4817a7c8",
+  "revision": "content-9bd307c54cf9",
   "games": [
     {
       "id": "sab",
-      "file": "game-sab-f6d55ed6fdd47e7e.json",
-      "sha256": "f6d55ed6fdd47e7ebd4b824551031175bbb55fcd4aa7ab196081040bb4549e78"
+      "file": "game-sab-0f006bf6985c2d93.json",
+      "sha256": "0f006bf6985c2d938890affd3d4fc96cc3e11c860837f4856f4f036c2b6ae0b0"
     },
     {
       "id": "adopt-me",
-      "file": "game-adopt-me-c2b0bcb58b059cbd.json",
-      "sha256": "c2b0bcb58b059cbdacbace1634c793ed5ca6a9b82c2ba82db371cec881607862"
+      "file": "game-adopt-me-dff7699e0ac2e92c.json",
+      "sha256": "dff7699e0ac2e92c089b69f8f25203a9a2fc6463845d5b0e037c8b19c4d4f12e"
     },
     {
       "id": "bee-swarm",
-      "file": "game-bee-swarm-f7a1f4b281da008b.json",
-      "sha256": "f7a1f4b281da008b4cdfb2a83f73fb56a925be60de631ea7c15e80a5488f9c32"
+      "file": "game-bee-swarm-6f278b9b7bf42f08.json",
+      "sha256": "6f278b9b7bf42f08693e964cb7095e3df90544c849b11ecf091f7be618383476"
     },
     {
       "id": "blox-fruits",
-      "file": "game-blox-fruits-d5a2dc11af96fe8c.json",
-      "sha256": "d5a2dc11af96fe8c6a9c34fcfa59c9972033b7904e33758aceff0f0793692979"
+      "file": "game-blox-fruits-eba01871f3bd0c01.json",
+      "sha256": "eba01871f3bd0c0176914b2af5debcc351d41ba7cbf7b202c8edf93a6bbc47cc"
     },
     {
       "id": "fisch",
-      "file": "game-fisch-bf058e1ce278c102.json",
-      "sha256": "bf058e1ce278c102ca22bd518d851c8c475895925fe925c0daad40e20a362038"
+      "file": "game-fisch-3387bdcf8635f77f.json",
+      "sha256": "3387bdcf8635f77f74cdd27df3e88f694fb16a33ad674b83347d1b64ae4f9ffd"
     },
     {
       "id": "grow-a-garden-2",
-      "file": "game-grow-a-garden-2-3755519d9ddd64b3.json",
-      "sha256": "3755519d9ddd64b32827b52e17b04fc9e73d6e0988f4fbd02ab437008b86bf0f"
+      "file": "game-grow-a-garden-2-04e4a77b4b9e8154.json",
+      "sha256": "04e4a77b4b9e8154dbea594dbe4b56d8566c499d6a6599e19454f22576ce9557"
     },
     {
       "id": "grow-a-garden",
-      "file": "game-grow-a-garden-3e70a6d7c4acea40.json",
-      "sha256": "3e70a6d7c4acea4097cd0d8664df9b256ce3f89f200329262cab5dae53d05773"
+      "file": "game-grow-a-garden-240c0cb49edd2c3e.json",
+      "sha256": "240c0cb49edd2c3eebd6f75e1986292a550d008900ac6e46337de7c712f54d1d"
     },
     {
       "id": "mm2",
-      "file": "game-mm2-98cd458af5cb4664.json",
-      "sha256": "98cd458af5cb46648c30324cc3478ce6408a860c5cb512ee56ab98e17e80a3c7"
+      "file": "game-mm2-c4af809e8623e65f.json",
+      "sha256": "c4af809e8623e65fe3ffb2631c92b78887b19f71dbd2475af1075115859b6ffc"
     },
     {
       "id": "pet-simulator-99",
-      "file": "game-pet-simulator-99-fd101d3180da1c49.json",
-      "sha256": "fd101d3180da1c499f975ef6c99c17351de734c9ce79ac9eed89388f3cb8ab52"
+      "file": "game-pet-simulator-99-871ae49d8d013b10.json",
+      "sha256": "871ae49d8d013b1040dca15928ab9905a3c1f38d82954e8c209ab3232c0d925d"
     }
   ],
   "achievements": {
