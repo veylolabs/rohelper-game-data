@@ -2,7 +2,7 @@
   "schema": 1,
   "engineVersion": 1,
   "layoutVersion": 5,
-  "revision": "content-9bd307c54cf9",
+  "revision": "content-850213e0060c",
   "games": [
     {
       "id": "sab",
@@ -48,6 +48,11 @@
       "id": "pet-simulator-99",
       "file": "game-pet-simulator-99-871ae49d8d013b10.json",
       "sha256": "871ae49d8d013b1040dca15928ab9905a3c1f38d82954e8c209ab3232c0d925d"
+    },
+    {
+      "id": "lumber-tycoon-2",
+      "file": "game-lumber-tycoon-2-cac6ca187913ca81.json",
+      "sha256": "cac6ca187913ca816aef81da0bf7110d97e5d660cc7f10e84aee7cbfafd91bfe"
     }
   ],
   "achievements": {
